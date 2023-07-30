@@ -1,6 +1,7 @@
-import User from '@/components/list-user/user';
 import axios from 'axios';
 import React from 'react';
+
+import User from '@/components/list-user/user';
 
 const ListUser = ({ dataUser }) => {
   console.log('data dari server side props', dataUser);
